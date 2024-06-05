@@ -16,6 +16,25 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+
+# My Next.js App
+
+Ini adalah proyek Next.js yang menggunakan struktur folder yang terorganisir untuk memisahkan komponen server dan klien, serta logika utilitas.
+
+## Struktur Folder
+
+- `app/` - Folder utama untuk halaman dan komponen.
+- `lib/` - Folder untuk fungsi utilitas dan helper.
+- `public/` - Folder untuk aset statis seperti gambar.
+- `node_modules/` - Folder untuk dependensi Node.js.
+- `.gitignore` - File untuk menentukan file dan folder yang harus diabaikan oleh git.
+- `next.config.js` - File konfigurasi untuk Next.js.
+- `package.json` - File untuk mendefinisikan dependensi dan skrip npm.
+- `README.md` - Dokumentasi proyek.
+
+Lihat README.md di setiap folder untuk penjelasan lebih detail.
+
+
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
